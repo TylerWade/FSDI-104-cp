@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="game.css">
+
+    <title>Game</title>
+  </head>
+  <body>
+    <h1>Mortal Kombat</h1>
+    <div>
+        <button><a href="index.html">Go Back</a></button>
+    </div>
+
+    <div class="winner">
+   <h2 id="message"></h2>
+    </div>
+  
+
+   <section>
+        <img src="img/fight.gif" alt="" width="250" id="fight">
+        <table  id="table1">
+            <tr>
+                <td><h3>Baraka and Sonya</h3>
+                    <hr>
+                    <div class="imgContainer2">
+                        <div>
+                            <img src="img/baraka.jpg" id="theImage2"/>
+                        </div>
+                        <div class="imgButton">
+                            <input type="button" id="theButton" value="Baraka" onclick="pictureChange3()">
+                            <input type="button" id="theButton" value="Sonya" onclick="pictureChange4()">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>    
+        <table  id="table2">
+            <tr>
+                <td><h3>Scorpion and Sub-Zero</h3>
+                    <hr>
+                    <div class="imgContainer1">
+                        <div>
+                            <img src="img/scorpion.jpg" id="theImage1">
+                        </div>
+                        <div class="imgButton">
+                            <input type="button" id="theButton" value="Scorpion" onclick="pictureChange1()">
+                            <input type="button" id="theButton" value="Sub-Zero" onclick="pictureChange2()">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <br class="clear" />
+    <div class="btn-group1">
+        <button onclick="sspunch()"> <strong>Punch</strong></button>
+        <button onclick="sskick()"> <strong>Kick</strong></button>
+        <button onclick="ssspecial()"> <Strong>Special</Strong></button>
+    </div> 
+    <div class="btn-group2">
+        <button onclick="bspunch()"> <strong>Punch</strong></button>
+        <button onclick="bskick()"> <strong>Kick</strong></button>
+        <button onclick="bsspeical()"> <Strong>Special</Strong></button>
+    </div> 
+
+    <div>
+    <!-- Optional JavaScript -->
+    <script src="game.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
